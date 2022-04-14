@@ -5,7 +5,7 @@ import (
     "github.com/sirupsen/logrus"
 )
 
-func foobar() {
+func Foobar() {
     if apparmor.HostSupports() {
         logrus.Infof("Running Foobar Deluxe, with AppArmor")
     } else {

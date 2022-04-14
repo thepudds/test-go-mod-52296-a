@@ -1,9 +1,9 @@
 # test-go-mod-52296-a
-Test repo showing exclude behavior for Example A from proposal [#52296](https://github.com/golang/go/issues/52296) ("limit version resolution to packages that are consumed").
+Test repo showing exclude behavior for the `foobar` [example](https://github.com/golang/go/issues/52296#issue-1201714572) from proposal [#52296](https://github.com/golang/go/issues/52296) ("limit version resolution to packages that are consumed").
 
 ### Summary
 
-* **v0.2.0** ([details](https://github.com/thepudds/test-go-mod-52296-a/releases/tag/v0.2.0)) corresponds to the end state of the concrete example in the opening comment https://github.com/golang/go/issues/52296#issue-1201714572.
+* **v0.2.0** ([details](https://github.com/thepudds/test-go-mod-52296-a/releases/tag/v0.2.0)) corresponds to the end state of the concrete foobar example in the opening comment https://github.com/golang/go/issues/52296#issue-1201714572.
 
 * **v0.3.0** ([details](https://github.com/thepudds/test-go-mod-52296-a/releases/tag/v0.3.0)) corresponds to the suggestion from bcmills in https://github.com/golang/go/issues/52296#issuecomment-1097102509 to  *"apply exclude (not replace!) directives to notch out the dependencies that you know to be spurious"*. In this version:
    * foobar excludes the undesirable versions of logrus in the foobar go.mod.
